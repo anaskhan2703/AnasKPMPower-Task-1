@@ -1,4 +1,11 @@
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+}
 #maincontainer{
     border-style: solid;
     border-color: black;
@@ -17,5 +24,32 @@ img{
 }
 #textcontainer{
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.wordcontainers{
+    border-style: dotted;
+    width: 25%;
+}
+.wordcontainers hr{
+    width: 95%;
+}
+table{
+    width: 98%;
+    margin: 10px;
+}
+table, th, td, tr{
+    border: 1px;
+    border-style: solid;
+}
+#centertd{
+    text-align: center;
+}
+footer{
+    width: 98%;
+    margin: 10px;   
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
